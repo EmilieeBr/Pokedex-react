@@ -4,7 +4,7 @@ import PokemonCard from "./components/PokemonCard.jsx";
 function App() {
   return (
     <div>
-      <PokemonCard pokemon = {pokemonList[0]} />
+      <PokemonCard pokemon={pokemonList[0]} pokemonList={pokemonList[0].name}/>
     </div>
   );
 }
