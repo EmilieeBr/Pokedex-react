@@ -14,7 +14,6 @@ function App() {
         setPokemonIndex={setPokemonIndex}
         pokemonList={pokemonList}
       />
-      <p>{PokemonIndex}</p>
       <PokemonCard pokemon={pokemon} pokemonList={pokemonList[0].name} />
     </div>
   );
